@@ -48,7 +48,7 @@ const AboutMe = () => {
 					<div className="flex justify-center items-center md:pr-10 pr-0 md:w-auto ">
 						<div data-aos="fade-up" data-aos-duration="1000">
 							<img
-								src="/Photo.png"
+								src="/logo.jpg"
 								alt="Photo Siluet"
 								className="
                             w-[30rem] h-auto rounded-xl "
@@ -63,7 +63,7 @@ const AboutMe = () => {
 							className="text-[#a6adba] w-full text-justify text-xl mb-5 mt-5 md:mt-0"
 							data-aos="fade-up"
 							data-aos-duration="600">
-							Saya adalah Eki Zulfar Rachman, seorang siswa yang menekuni bidang Teknik Komputer
+							Saya adalah Januar Adhi N, seorang siswa yang menekuni bidang Teknik Komputer
 							Jaringan dengan fokus pada pengembangan front-end web. Saya memiliki tekad yang kuat
 							untuk terus belajar dan mengasah keterampilan saya demi mencapai kesempurnaan. Selalu
 							berusaha untuk menemukan solusi terbaik dalam setiap proyek yang saya kerjakan dan

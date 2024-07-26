@@ -68,7 +68,7 @@ export default function SocialMedia() {
 				<Tab
 					label={
 						<div className="flex gap-x-3 w-full">
-							<img src="/SocialMediaImg/instagram.svg" alt="Instagram Eki" />
+							<img src="/SocialMediaImg/instagram.svg" alt="Instagram Januar" />
 							Instagram
 						</div>
 					}
@@ -83,7 +83,7 @@ export default function SocialMedia() {
 				<Tab
 					label={
 						<div className="flex gap-x-3 w-full">
-							<img src="/SocialMediaImg/tiktok.svg" alt="Tiktok Eki" />
+							<img src="/SocialMediaImg/tiktok.svg" alt="Tiktok Januar" />
 							Tiktok
 						</div>
 					}
@@ -95,40 +95,11 @@ export default function SocialMedia() {
 						fontSize: ["0.7rem", "1rem"],
 					}}
 				/>
-				<Tab
-					label={
-						<div className="flex gap-x-3 w-full">
-							<img src="/SocialMediaImg/youtube.svg" alt="Youtube Eki" />
-							Youtube
-						</div>
-					}
-					{...a11yProps(2)}
-					scrollButtons="auto"
-					sx={{
-						fontWeight: "Bold",
-						color: "#ced4d7",
-						fontSize: ["0.7rem", "1rem"],
-					}}
-				/>
-				<Tab
-					label={
-						<div className="flex gap-x-3 w-full">
-							<img src="/SocialMediaImg/linkedin.svg" alt="Linkedin Eki" />
-							Linkedin
-						</div>
-					}
-					{...a11yProps(3)}
-					scrollButtons="auto"
-					sx={{
-						fontWeight: "Bold",
-						color: "#ced4d7",
-						fontSize: ["0.7rem", "1rem"],
-					}}
-				/>
+				
       <Tab
 					label={
 						<div className="flex gap-x-3 w-full">
-							<img src="/SocialMediaImg/github.svg" alt="Github Eki" />
+							<img src="/SocialMediaImg/github.svg" alt="Github Januar" />
 							Github
 						</div>
 					}
@@ -145,46 +116,28 @@ export default function SocialMedia() {
 
 			<SwipeableViews index={value} onChangeIndex={handleChangeIndex}>
 				<TabPanel value={value} index={0}>
-					<a href="https://www.instagram.com/ekizr_/?hl=id">
+					<a href="https://www.instagram.com/januaradhin/?hl=id">
 						<img
 							src="/SocialMediaImg/Instagram.jpg"
-							alt="Instagram Eki"
+							alt="Instagram Januar"
 							className="object-contain h-auto w-[10rem] md:w-[14.3rem]  rounded-xl "
 						/>
 					</a>
 				</TabPanel>
 				<TabPanel value={value} index={1}>
-					<a href="https://www.tiktok.com/@eki_zulfar">
+					<a href="https://www.tiktok.com/@januaradhin">
 						<img
 							src="/SocialMediaImg/tiktok.jpg"
-							alt="Tiktok Eki"
+							alt="Tiktok Januar"
 							className="object-contain h-auto w-[10rem] md:w-[14.3rem] rounded-xl"
 						/>
 					</a>
 				</TabPanel>
-				<TabPanel value={value} index={2}>
-					<a href="https://youtube.com/@eki_zulfar">
-						<img
-							src="/SocialMediaImg/youtube.jpg"
-							alt="Youtube Eki"
-							className="object-contain h-auto w-[10rem] md:w-[14.3rem] rounded-xl"
-						/>
-					</a>
-				</TabPanel>
-				<TabPanel value={value} index={3}>
-					<a href="https://www.linkedin.com/in/ekizr/">
-						<img
-							src="/SocialMediaImg/linkedin.jpg"
-							alt="Linkedin Eki"
-							className="object-contain h-auto w-[10rem] md:w-[14.3rem] rounded-xl"
-						/>
-					</a>
-				</TabPanel>
-        <TabPanel value={value} index={4}>
-					<a href="https://github.com/EkiZR">
+        <TabPanel value={value} index={2}>
+					<a href="https://github.com/januarAdhiN77">
 						<img
 							src="/SocialMediaImg/github.jpg"
-							alt="Github Eki"
+							alt="Github Januar"
 							className="object-contain h-auto w-[10rem] md:w-[14.3rem] rounded-xl"
 						/>
 					</a>
