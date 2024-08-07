@@ -59,7 +59,7 @@ export default function FullWidthTabs() {
   const [value, setValue] = React.useState(0);
   const [projects, setProjects] = useState([]);
   const [certificates, setCertificates] = useState([]);
-  const [showAllProjects, setShowAllProjects] = useState(false);
+  
   const [showAllCertificates, setShowAllCertificates] = useState(false);
 
   useEffect(() => {
