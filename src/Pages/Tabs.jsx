@@ -59,7 +59,7 @@ export default function FullWidthTabs() {
   const [value, setValue] = React.useState(0);
   const [projects, setProjects] = useState([]);
   const [certificates, setCertificates] = useState([]);
-  
+  const [showAllProjects, setShowAllProjects] = useState(false);
   const [showAllCertificates, setShowAllCertificates] = useState(false);
 
   useEffect(() => {
@@ -122,17 +122,8 @@ export default function FullWidthTabs() {
             }}
           >
             <Tab
-              label="Project"
-              {...a11yProps(0)}
-              sx={{
-                fontWeight: "Bold",
-                color: "#ced4d7",
-                fontSize: ["1rem", "2rem"],
-              }}
-            />
-            <Tab
               label="Tech Stack"
-              {...a11yProps(2)}
+              {...a11yProps(0)}
               sx={{
                 fontWeight: "Bold",
                 color: "#ced4d7",
