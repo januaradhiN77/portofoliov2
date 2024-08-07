@@ -81,7 +81,7 @@ const AboutMe = () => {
 							<div
 								class="w-auto h-[8em] flex flex-col justify-center items-center rounded-sm"
 								id="InfoAbout">
-								<b className="text-3xl text-[#ced4d7]">3+</b>
+								<b className="text-3xl text-[#ced4d7]">2+</b>
 								<div className="text-center text-[#a6adba]">Years of Experience</div>
 							</div>
 							<div
@@ -93,7 +93,7 @@ const AboutMe = () => {
 							<div
 								class="w-auto h-[8em] flex flex-col justify-center items-center rounded-sm"
 								id="InfoAbout">
-								<b className="text-3xl text-[#ced4d7]">{certificateCount}+</b>
+								<b className="text-3xl text-[#ced4d7]">1</b>
 								<div className="text-center text-[#a6adba]">Certificate</div>
 							</div>
 						</div>
