@@ -123,7 +123,7 @@ export default function FullWidthTabs() {
           >
             <Tab
               label="Tech Stack"
-              {...a11yProps(2)}
+              {...a11yProps(0)}
               sx={{
                 fontWeight: "Bold",
                 color: "#ced4d7",
@@ -139,7 +139,7 @@ export default function FullWidthTabs() {
         >
           
          
-          <TabPanel value={value} index={2} dir={theme.direction}>
+          <TabPanel value={value} index={0} dir={theme.direction}>
             <div className="container mx-auto flex justify-center items-center overflow-hidden">
               <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-5">
                 {/* Programming icon / tech stack  */}
