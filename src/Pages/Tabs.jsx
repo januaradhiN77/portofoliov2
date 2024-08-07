@@ -137,58 +137,8 @@ export default function FullWidthTabs() {
           index={value}
           onChangeIndex={setValue}
         >
-          <TabPanel value={value} index={0} dir={theme.direction}>
-            <div className="container mx-auto flex justify-center items-center overflow-hidden ">
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
-                {(showAllProjects ? projects : projects.slice(0, 6)).map((project, index) => (
-                  <div key={index} data-aos="fade-up" data-aos-duration="1000">
-                    <CardProject Img={project.Img} Title={project.Title} Description={project.Description} Link={project.Link} />
-                  </div>
-                ))}
-              </div>
-             
-            </div>
-            {projects.length > 6 && (
-                <div className="mt-4 text-[#ced4d7] ">
-                  {showAllProjects ? (
-                    <button onClick={handleShowLessProjects} className="opacity-75 italic text-sm">
-                      See Less
-                    </button>
-                  ) : (
-                    <button onClick={handleShowMoreProjects} className="opacity-75 text-sm">
-                      See More
-                    </button>
-                  )}
-                </div>
-              )}
-          </TabPanel>
-          <TabPanel value={value} index={1} dir={theme.direction}>
-            <div className="container mx-auto flex justify-center items-center overflow-hidden">
-              <div className="grid grid-cols-1 md:grid-cols-3 md:gap-5 gap-4">
-                {(showAllCertificates ? certificates : certificates.slice(0, 6)).map((Sertifikat, index) => (
-                  <div key={index} data-aos="fade-up" data-aos-duration="1000">
-                    <Certificate ImgSertif={Sertifikat.Img} />
-                  </div>
-                ))}
-              </div>
-              </div>
-              {certificates.length > 6 && (
-                <div className="mt-4 text-[#ced4d7]" >
-                  {showAllCertificates ? (
-                    <button onClick={handleShowLessCertificates} className="opacity-75 italic text-sm">
-                      See Less
-                    </button>
-                  ) : (
-                    <button onClick={handleShowMoreCertificates} className="opacity-75 text-sm">
-                      See More
-                    </button>
-                  )}
-                </div>
-              )}
-
-  
           
-          </TabPanel>
+         
           <TabPanel value={value} index={2} dir={theme.direction}>
             <div className="container mx-auto flex justify-center items-center overflow-hidden">
               <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-5">
